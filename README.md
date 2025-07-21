@@ -5,8 +5,6 @@ A smart email assistant powered by LLMs and LangGraph to automatically triage em
 
 ## About The Project
 
-![Project Demo GIF](path/to/your/demo.gif)
-
 This project is a smart email assistant designed to connect directly to a Gmail account. It uses the power of Large Language Models (LLMs) and LangGraph to automate email management. The assistant improves its performance over time by learning from your interactions and feedback.
 
 ### Key Features
