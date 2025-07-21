@@ -42,9 +42,9 @@ OPENAI_API_KEY=your_openai_api_key
 ```
 
 
-### Package Installati
+### Package Installation
 
-**Alternative: Using pip**
+**Using pip**
 
 ```shell
 $ python3 -m venv .venv
@@ -66,35 +66,6 @@ The README also explains how to deploy the graph to LangGraph Platform.
 
 The full implementation of the Gmail integration is in [src/email_assistant/email_assistant_hitl_memory_gmail.py](/src/email_assistant/email_assistant_hitl_memory_gmail.py).
 
-## Running Tests
-
-The repository includes an automated test suite to evaluate the email assistant. 
-
-Tests verify correct tool usage and response quality using LangSmith for tracking.
-
-### Running Tests with [run_all_tests.py](/tests/run_all_tests.py)
-
-```shell
-python tests/run_all_tests.py
-```
-
-### Test Results
-
-Test results are logged to LangSmith under the project name specified in your `.env` file (`LANGSMITH_PROJECT`). This provides:
-- Visual inspection of agent traces
-- Detailed evaluation metrics
-- Comparison of different agent implementations
-
-### Available Test Implementations
-
-The available implementations for testing are:
-- `email_assistant` - Basic email assistant
-
-## Future Extensions
-
-Add [LangMem](https://langchain-ai.github.io/langmem/) to manage memories:
-* Manage a collection of background memories. 
-* Add memory tools that can look up facts in the background memories. 
 
 
 
